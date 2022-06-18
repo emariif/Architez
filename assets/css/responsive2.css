@@ -1,0 +1,72 @@
+@media screen and (max-width: 576px) {
+  .menu-toggle {
+    display: flex;
+    color: white;
+  }
+
+  nav {
+    padding: 40px;
+  }
+
+  nav img {
+    width: 18vw;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    z-index: -1000;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+  }
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  #top-wrapper {
+    padding-left: 2.5rem;
+  }
+
+  #top-wrapper h1 {
+    /* font-size: 3.5rem; */
+    /* width: 80vw; */
+  }
+
+  /* Population */
+  .item {
+    flex-basis: 18%;
+  }
+
+  .item h6 {
+    /* font-size: 2em; */
+    font-size: 6vw;
+  }
+
+  .item p {
+    font-size: 0.8em;
+  }
+
+  /* Gambar */
+  main #house img {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+}

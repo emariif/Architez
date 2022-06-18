@@ -1,0 +1,164 @@
+@media screen and (max-width: 780px) {
+  .menu-toggle {
+    display: flex;
+    color: white;
+  }
+
+  nav {
+    padding: 40px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+    margin-right: 48px;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    z-index: -1000;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+  }
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  body .background-top {
+    height: 800px;
+  }
+
+  #top-wrapper {
+    padding-left: 40px;
+  }
+
+  #top-wrapper h1 {
+    font-size: 3.5rem;
+    margin-bottom: 70px;
+    width: 90%;
+  }
+
+  /* Population */
+  .item {
+    flex-basis: 18%;
+  }
+
+  .item h6 {
+    font-size: 2em;
+  }
+
+  .item p {
+    font-size: 0.8em;
+  }
+
+  /* Gambar */
+  main #house img {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  /* Featured */
+  .featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .featured h2 {
+    font-size: 1.7em;
+  }
+
+  .featured-logo img {
+    height: 1.8rem;
+    margin-right: 2rem;
+    margin-bottom: 120px;
+  }
+
+  /* News (Berita) */
+  #news {
+    margin-bottom: 120px;
+    padding: 0 40px;
+  }
+
+  .item-news.satu {
+    flex-direction: column;
+  }
+
+  .item-news.satu img {
+    width: 680px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .item-news img {
+    width: 680px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+  }
+
+  .text-news h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .item-news.satu .text-news h3 {
+    font-size: 1.8rem;
+  }
+
+  /* Services */
+  #services {
+    height: 480px;
+  }
+
+  .content-service {
+    padding: 48px 40px;
+    flex-direction: column;
+  }
+
+  .item-service {
+    margin-right: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .item-service h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  /* RANK */
+  #rank {
+    display: flex;
+    padding: 0 40px;
+  }
+
+  #rank h2 {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  /* nav {
+    padding: 40px 32px;
+  } */
+
+  nav ul li a {
+    font-size: 1em;
+    margin-right: 40px;
+  }
+}
