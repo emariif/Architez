@@ -4,6 +4,10 @@
     color: white;
   }
 
+  body .background-top {
+    height: 115vh;
+  }
+
   nav {
     padding: 40px;
   }
@@ -40,14 +44,20 @@
 
   #top-wrapper {
     padding-left: 2.5rem;
+    padding-top: 4rem;
   }
 
   #top-wrapper h1 {
-    /* font-size: 3.5rem; */
+    font-size: 2.8em;
     /* width: 80vw; */
+    margin-bottom: 3rem;
   }
 
   /* Population */
+  .population {
+    margin-bottom: 4rem;
+  }
+
   .item {
     flex-basis: 18%;
   }
@@ -64,8 +74,213 @@
   /* Gambar */
   main #house img {
     width: 100%;
+    padding-left: 40px;
     margin-bottom: 80px;
   }
+
+  /* Featured */
+  .featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .featured h2 {
+    font-size: 1.5em;
+  }
+
+  .featured-logo img {
+    height: 1.8em;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* News (Berita) */
+  #news {
+    margin-bottom: 120px;
+    padding: 0 40px;
+  }
+
+  .item-news.satu {
+    flex-direction: column;
+  }
+
+  .item-news.satu img {
+    width: 100vw;
+    padding: 0px 40px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .item-news img {
+    width: 100vw;
+    padding-right: 40px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+  }
+
+  .text-news h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .item-news.satu .text-news h3 {
+    font-size: 1.8rem;
+  }
+
+  /* Services */
+  #services {
+    height: 100vh;
+  }
+
+  .content-service {
+    padding: 48px 40px;
+    flex-direction: column;
+  }
+
+  .item-service {
+    margin-right: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .item-service h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  /* RANK */
+  #rank {
+    display: flex;
+    padding: 0 40px;
+  }
+
+  #rank h2 {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  #team {
+    padding: 0 40px;
+    margin-bottom: 120px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item-team {
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+
+  .text-team h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .text-team p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+
+  #press {
+    padding: 0 40px;
+    margin-bottom: 8rem;
+  }
+
+  #press h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.8rem;
+  }
+
+  .latest-press {
+    flex-direction: column;
+  }
+
+  .item-press {
+    margin-bottom: 2rem;
+  }
+
+  .item-press img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .text-press h4 {
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-press p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 1rem;
+  }
+
+  .text-press a {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    background-color: #141414;
+    height: 100%;
+    text-align: center;
+    padding: 32px 0;
+  }
+
+  .footer-content {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    flex-basis: 100%;
+  }
+
+  .footer-logo img {
+    margin-bottom: 0.8rem;
+    height: 20px;
+  }
+
+  .footer-menu {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer-text {
+    flex-basis: 19%;
+    margin: 0 3rem;
+    text-align: center;
+  }
+
+  .footer-menu p {
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+  }
+
+  .footer-menu ul {
+    display: none;
+    /* flex-direction: column; */
+  }
+  /* 
+  .footer-menu ul li a {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: white;
+    margin-right: 1rem;
+  } */
 }
 
 @media screen and (max-width: 1080px) {
