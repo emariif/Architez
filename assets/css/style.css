@@ -211,7 +211,7 @@ main #house img {
 
 #services {
   background-color: #f4f6f7;
-  height: 418px;
+  height: 100%;
   color: #141414;
   align-items: center;
   justify-content: center;
@@ -221,6 +221,7 @@ main #house img {
   padding: 112px;
   display: flex;
   justify-content: space-between;
+  width: 100vw;
 }
 
 .item-service {
@@ -246,13 +247,17 @@ main #house img {
   display: flex;
   align-items: center;
   color: white;
-  height: 238px;
+  height: 100%;
   /* padding-right: 80px; */
   justify-content: center;
   margin-bottom: 160px;
 }
 
-#rank h2 {
+.text-rank {
+  padding: 112px;
+}
+
+.text-rank h2 {
   font-size: 1.6rem;
   font-weight: 700;
 }
@@ -260,7 +265,7 @@ main #house img {
 #team {
   display: flex;
   justify-content: space-between;
-  padding: 0 112px;
+  padding: 0 7rem;
   margin-bottom: 160px;
 }
 
@@ -270,6 +275,7 @@ main #house img {
   justify-content: flex-end;
   align-items: flex-end;
   color: white;
+  /* margin-right: 20px; */
 }
 
 .name-tage {
@@ -322,6 +328,7 @@ main #house img {
 
 .item-press {
   flex-basis: 25%;
+  /* margin-right: 20px; */
 }
 
 .item-press img {
