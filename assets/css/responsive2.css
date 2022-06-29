@@ -2,6 +2,24 @@
   .item-news img {
     height: 20em;
   }
+
+  .item-team img {
+    height: 26em;
+  }
+
+  .text-team h3 {
+    font-size: 1.1rem;
+  }
+
+  .text-team p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+
+  .item-press img {
+    width: 20em;
+  }
 }
 
 @media screen and (max-width: 884px) {
