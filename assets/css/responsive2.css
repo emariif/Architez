@@ -395,7 +395,7 @@
   }
 
   #top-wrapper .bg-top {
-    height: 110%;
+    height: 760px;
   }
 
   nav {
@@ -518,7 +518,7 @@
   }
 
   .item-news img {
-    width: 80vw;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     margin-bottom: 1rem;
@@ -586,7 +586,7 @@
 
   .item-team img {
     height: 100%;
-    width: 80vw;
+    width: 100%;
   }
 
   .item-team {
