@@ -22,7 +22,227 @@
   }
 }
 
-@media screen and (max-width: 884px) {
+@media screen and (max-width: 1080px) {
+  nav {
+    padding: 2.5rem 4rem;
+  }
+
+  nav.scrolled {
+    padding: 2.5rem 4rem;
+  }
+
+  nav ul li a {
+    font-size: 0.9em;
+  }
+
+  nav.scrolled ul li a {
+    font-size: 0.9em;
+  }
+
+  #top-wrapper {
+    margin-top: 8rem;
+    padding: 2.5rem 4rem;
+  }
+
+  /* Featured */
+  .featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .featured h2 {
+    font-size: 1.5em;
+  }
+
+  .featured-logo img {
+    height: 1.8em;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* News (Berita) */
+  #news {
+    margin-bottom: 120px;
+    padding: 0 40px;
+    flex-direction: column;
+  }
+
+  .item-news {
+    overflow-x: hidden;
+  }
+
+  .item-news.satu {
+    flex-direction: column;
+  }
+
+  .item-news.satu img {
+    width: 100vw;
+    padding: 0px 40px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .item-news img {
+    width: 90vw;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+  }
+
+  .text-news h3 {
+    margin-bottom: 0.4em;
+  }
+
+  .item-news.satu .text-news h3 {
+    font-size: 1.8rem;
+  }
+
+  .text-news .date h5 {
+    margin-bottom: 1.2rem;
+  }
+
+  .text-news p {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin-bottom: 1.3rem;
+  }
+
+  /* Services */
+  #services {
+    height: 100%;
+  }
+  .content-service {
+    padding: 48px 40px;
+    flex-direction: column;
+  }
+
+  .item-service {
+    margin-right: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .item-service h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  /* RANK */
+  #rank {
+    display: flex;
+    padding: 0 40px;
+  }
+
+  .text-rank {
+    padding: 40px 20px;
+  }
+
+  .text-rank h2 {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  #team {
+    padding: 0 4rem;
+    margin-bottom: 120px;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .item-team img {
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+    height: 21em;
+  }
+
+  .text-team h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .text-team p {
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+
+  .line span {
+    padding: 1.2rem;
+  }
+
+  .name-tage {
+    width: 90%;
+    height: 18%;
+    bottom: 24px;
+  }
+
+  #press {
+    padding: 0 40px;
+    margin-bottom: 8rem;
+  }
+
+  #press h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.8rem;
+  }
+
+  .item-press {
+    flex-basis: 31%;
+    margin-bottom: 2rem;
+  }
+
+  .item-press img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .text-press h4 {
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-press p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 1rem;
+  }
+
+  .text-press a {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #contact,
+  aside {
+    padding: 0 4rem;
+  }
+
+  #contact {
+    margin-bottom: 4rem;
+    width: 59%;
+  }
+
+  aside {
+    width: 29%;
+  }
+  .card {
+    width: 30vw;
+  }
+
+  footer {
+    margin-top: 38rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
   #top-wrapper {
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -374,7 +594,7 @@
   } */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   #top-wrapper {
     margin-top: 5rem;
     margin-bottom: 2rem;
