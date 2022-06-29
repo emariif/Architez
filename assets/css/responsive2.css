@@ -374,7 +374,7 @@
   } */
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
   #top-wrapper {
     margin-top: 5rem;
     margin-bottom: 2rem;
