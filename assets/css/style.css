@@ -236,6 +236,7 @@ nav ul li a:hover {
   line-height: 1.5;
   letter-spacing: 0.2px;
   margin-bottom: 1.5rem;
+  text-overflow: ellipsis;
 }
 
 .text-news a {
