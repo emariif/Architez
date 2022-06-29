@@ -1,4 +1,10 @@
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1280px) {
+  .item-news img {
+    height: 20em;
+  }
+}
+
+@media screen and (max-width: 884px) {
   #top-wrapper {
     margin-top: 5rem;
     margin-bottom: 2rem;
